@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licencias Vehiculares</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contenido {
+      max-width: 800px;
+      width: 90%;
+      padding: 40px;
+      background-color: #1c1c1c;
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      margin-top: 40px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Estilo para la imagen */
+    .imagen-licencia {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 15px;
+      margin: 20px 0;
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.2);
+    }
+
+    .llama {
+      margin-top: 40px;
+      background: linear-gradient(180deg, #ff5722, #ff8a50);
+      color: #fff;
+      padding: 20px;
+      font-size: 2em;
+      font-weight: bold;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      color: #00bfff;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p, ul {
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #ddd;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .servicios {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #222;
+      border-left: 6px solid #00bfff;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .servicios:hover {
+      transform: scale(1.02);
+    }
+
+    .servicios h2 {
+      color: #00bfff;
+      margin-top: 0;
+    }
+
+    .icon {
+      margin-right: 10px;
+      color: #00bfff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenido">
+    <!-- Imagen agregada aquí -->
+    <img src="xdd.jpg" alt="Licencia Vehicular" class="imagen-licencia">
+
+    <h1><i class="fas fa-id-card icon"></i>Servicio de Licencias Vehiculares</h1>
+    <p>
+      ¿Necesitas renovar tu licencia o estás tramitando tu primera? ¡Estás en el lugar correcto!<br>
+      Somos expertos en gestión de trámites vehiculares con años de experiencia ayudando a conductores como tú.
+    </p>
+    <div class="servicios">
+      <h2><i class="fas fa-tools icon"></i> ¿Qué ofrecemos?</h2>
+      <ul>
+        <li><i class="fas fa-check-circle icon"></i> Renovación de licencias de conducir en todos los niveles</li>
+        <li><i class="fas fa-check-circle icon"></i> Asistencia completa para obtener tu licencia por primera vez</li>
+        <li><i class="fas fa-check-circle icon"></i> Asesoría personalizada en requisitos y exámenes</li>
+        <li><i class="fas fa-check-circle icon"></i> Gestión de documentos y seguimiento del trámite</li>
+        <li><i class="fas fa-check-circle icon"></i> Atención rápida, confiable y segura</li>
+      </ul>
+    </div>
+    <p>
+      Nos encargamos de que tu experiencia sea sencilla y sin complicaciones. ¡Déjanos ayudarte hoy!
+    </p>
+  </div>
+  <div class="llama">
+    <i class="fas fa-phone-alt"></i><br>¡Llama ya al<br>0995100073!
+  </div>
+</body>
+</html>
